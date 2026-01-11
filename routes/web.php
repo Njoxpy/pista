@@ -6,8 +6,10 @@ Route::get('/', function () {
     return view('home');
 });
 
-
 Route::get('/add', function () {
     return view('add');
 });
-// http://localhost:5173/
+
+Route::get('/hello', function () {
+    return view('hello');
+});

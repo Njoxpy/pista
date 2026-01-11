@@ -1,4 +1,4 @@
 <x-layout>
-    <h1>Hello, Laravel! from add.blade.php</h1>
+    <h1>Hello, Laravel!</h1>
     <p>The current time is {{ date('h:i A') }}</p>
 </x-layout>
